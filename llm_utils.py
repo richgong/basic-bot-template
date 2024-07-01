@@ -5,7 +5,7 @@ from copy import deepcopy
 from typing import List, Literal, Union
 
 import docstring_parser
-from auto_analyst.utils.pii_utils import replace_pii
+from pii_utils import replace_pii
 from openai import (
     APITimeoutError,
     ConflictError,
